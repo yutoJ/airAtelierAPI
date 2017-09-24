@@ -21,7 +21,9 @@ gem 'puma', '~> 3.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+#debug
+gem 'pry-rails'
+gem 'better_errors'
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors'
 
@@ -45,3 +47,9 @@ gem 'omniauth', '~> 1.6'
 gem 'paperclip', '~> 5.1.0'
 gem 'geocoder', '~> 1.4'
 gem 'stripe', '~> 3.0.0'
+
+gem 'active_model_serializers', '~> 0.10.0', require:true
+gem 'koala', '~> 3.0.0'
+
+#non-function
+gem 'dotenv-rails'
