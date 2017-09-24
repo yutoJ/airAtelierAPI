@@ -37,4 +37,7 @@ class Api::V1::UsersController < ApplicationController
     user.save
     render json: { is_success: true}, status: :ok
   end
+
+  def add_card
+  end
 end

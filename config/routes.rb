@@ -7,6 +7,7 @@ Rails.application.routes.draw do
       post '/facebook' => 'users#facebook'
 
       resources :rooms
+      resources :reservations
     end
   end
 end
